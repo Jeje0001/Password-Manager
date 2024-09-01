@@ -34,7 +34,7 @@ A simple and secure password manager using Python, leveraging cryptography for e
 - Creates a Fernet object using the derived key.
 
 **verify_password(master_password)**
--Verifies the entered master password by comparing it with the stored hash.
+- Verifies the entered master password by comparing it with the stored hash.
 
 **view(fer)**
 - Reads and decrypts passwords from passwords.txt and prints them.
